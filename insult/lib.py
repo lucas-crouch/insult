@@ -67,5 +67,8 @@ def try_me():
         'splendid', 'spotless', 'stormy', 'strange', 'stupid', 'successful',
         'super'
     ]
+    return f"You are a {random.choice(adj)} {random.choice(nouns)}"
 
-    print(f"You are a {random.choice(adj)} {random.choice(nouns)}")
+
+if __name__ == "__main__":
+    print(try_me())
